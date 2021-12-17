@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>シングルページレイアウト</title>
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Google fonts - Raleway -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- CSS files -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="header">
-    <p class="site-title-sub">Web designer's portfolio</p>
+    <p class="site-title-sub">Web Designer's portfolio</p>
     <h1 class="site-title">HI, MY NAME IS...</h1>
-    <p class="site-description">Check out some of my works.</p>
+    <p class="description">Check out some of my works.</p>
     <div class="buttons">
       <a class="button" href="#about">LEARN MORE</a>
       <a class="button button-showy" href="#contact">SEND MESSAGE</a>
@@ -22,12 +30,12 @@
   <section class="about" id="about">
     <h2 class="heading">ABOUT ME</h2>
     <p class="about-text">
-      はじめまして。日本でWebデザイナーをしています。<br>
+      初めまして。日本でWebデザイナーをしています。<br>
       デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
     </p>
     <p class="about-text">
       このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた、架空のWebデザイナーのポートフォリオサイトです。<br>
-      このサンプルのようなサイトをいちから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
+      今サンプルのようなサイトを一から作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
     </p>
   </section>
   <section class="works">
@@ -38,7 +46,7 @@
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              ひとつめの制作事例が入ります。<br>
+              一つ目の制作事例が入ります。<br>
               簡単な説明が入ります。<br>
               使用ツール：XXX, XXX, XXX<br>
               <a href="#" class="button button-ghost">READ MORE</a>
@@ -51,7 +59,7 @@
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              ふたつめの制作事例が入ります。<br>
+              二つ目の制作事例が入ります。<br>
               簡単な説明が入ります。<br>
               使用ツール：XXX, XXX, XXX<br>
               <a href="#" class="button button-ghost">READ MORE</a>
@@ -64,7 +72,7 @@
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              みっつめの制作事例が入ります。<br>
+              三つ目の制作事例が入ります。<br>
               簡単な説明が入ります。<br>
               使用ツール：XXX, XXX, XXX<br>
               <a href="#" class="button button-ghost">READ MORE</a>
@@ -77,7 +85,7 @@
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              よっつめの制作事例が入ります。<br>
+              四つ目の制作事例が入ります。<br>
               簡単な説明が入ります。<br>
               使用ツール：XXX, XXX, XXX<br>
               <a href="#" class="button button-ghost">READ MORE</a>
@@ -91,7 +99,7 @@
     <h2 class="heading">MY SKILLS</h2>
     <div class="skills-wrapper">
       <div class="skill-box">
-        <i class="skill-icon fa fa-lightbulb-o"></i>
+        <i class="skill-icon far fa-lightbulb"></i>
         <div class="skill-title">IDEA</div>
         <p class="skill-text">
           何かを考えることが好きです。<br>
@@ -100,7 +108,7 @@
         </p>
       </div>
       <div class="skill-box">
-        <i class="skill-icon fa fa-paint-brush"></i>
+        <i class="skill-icon fas fa-paint-brush"></i>
         <div class="skill-title">DESIGN</div>
         <p class="skill-text">
           見た目の綺麗さだけじゃなくて、<br>
@@ -109,10 +117,10 @@
         </p>
       </div>
       <div class="skill-box">
-        <i class="skill-icon fa fa-code"></i>
+        <i class="skill-icon fas fa-code"></i>
         <div class="skill-title">CODING</div>
         <p class="skill-text">
-          HTML/CSSコーディングも行います。<br>
+          HTML/CSSのコーディングも行います。<br>
           正しく美しいマークアップと、<br>
           今後の変更への強さを考慮しています。
         </p>
@@ -128,8 +136,10 @@
     </form>
   </section>
   <footer class="footer">
-      © sample site
+    ©︎ sample site
   </footer>
   <script src="lib/placeholders.min.js"></script>
+
 </body>
+
 </html>
